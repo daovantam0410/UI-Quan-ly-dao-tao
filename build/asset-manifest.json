@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3fd68616.chunk.css",
+    "main.js": "/static/js/main.fffed518.chunk.js",
+    "main.js.map": "/static/js/main.fffed518.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6559b168.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6559b168.js.map",
+    "static/css/2.2c2ab191.chunk.css": "/static/css/2.2c2ab191.chunk.css",
+    "static/js/2.5c880908.chunk.js": "/static/js/2.5c880908.chunk.js",
+    "static/js/2.5c880908.chunk.js.map": "/static/js/2.5c880908.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2c2ab191.chunk.css.map": "/static/css/2.2c2ab191.chunk.css.map",
+    "static/css/main.3fd68616.chunk.css.map": "/static/css/main.3fd68616.chunk.css.map",
+    "static/js/2.5c880908.chunk.js.LICENSE.txt": "/static/js/2.5c880908.chunk.js.LICENSE.txt",
+    "static/js/main.fffed518.chunk.js.LICENSE.txt": "/static/js/main.fffed518.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.d0ec932c.woff2",
+    "static/media/all.min.css": "/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/light-bootstrap-dashboard-react.scss?v=2.0.0": "/static/media/nucleo-icons.a30d0b02.ttf",
+    "static/media/reactlogo.png": "/static/media/reactlogo.55f6660b.png",
+    "static/media/sidebar-1.2ea74e53.jpg": "/static/media/sidebar-1.2ea74e53.jpg",
+    "static/media/sidebar-2.00b17713.jpg": "/static/media/sidebar-2.00b17713.jpg",
+    "static/media/sidebar-3.9992d0ce.jpg": "/static/media/sidebar-3.9992d0ce.jpg",
+    "static/media/sidebar-4.b7eb4d1b.jpg": "/static/media/sidebar-4.b7eb4d1b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6559b168.js",
+    "static/css/2.2c2ab191.chunk.css",
+    "static/js/2.5c880908.chunk.js",
+    "static/css/main.3fd68616.chunk.css",
+    "static/js/main.fffed518.chunk.js"
+  ]
+}

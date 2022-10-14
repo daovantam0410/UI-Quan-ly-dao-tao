@@ -1,0 +1,68 @@
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
+
+fieldset {
+    margin-top: 1rem;
+    border-width: 1px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.div-30 {
+    width: 30%;
+    max-width: 30%;
+}
+
+.div-70 {
+    width: 70%;
+    max-width: 70%;
+}
+
+.row-item {
+    padding: 5px 5px;
+    width: 90%;
+    display: flex;
+}
+
+.col-form-label {
+    padding-left: 15px;
+}
+
+.radio-inline {
+    display: inline;
+}
+
+.form-check-input {
+    position: initial;
+    margin-top: 0.3rem;
+    margin-left: 0rem;
+    margin-right: 5px;
+}
+
+.btn-save-student, .btn-fill, .btn-save-subjects {
+    margin-right: 4px;
+}
+
+.add-item {
+    color: aliceblue;
+}
+
+.icon-export {
+    font-size: 48px;
+}
+
+.btn-add {
+    margin-bottom: 25px;
+}
+
+.student-details-label {
+    font-size: small;
+}
+
+#formStudentDetails {
+    width: 425px;
+    height: 162px;
+}
