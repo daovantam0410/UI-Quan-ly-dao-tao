@@ -17,6 +17,7 @@ import {
 import { Label } from "reactstrap";
 import {Link,NavLink} from "react-router-dom";
 import { confirmAlert } from 'react-confirm-alert';
+import ReactDatePicker from "react-datepicker";
 
 
 function ManagerTeacher() {
@@ -54,6 +55,8 @@ function ManagerTeacher() {
       ]
     })
   }
+
+  const [startDate, setStartDate] = useState(new Date());
 
   return (
     <>
@@ -98,7 +101,8 @@ function ManagerTeacher() {
                       <th className="border-0">SĐT</th>
                       <th className="border-0">Địa chỉ</th>
                       <th className="border-0">Ngày sinh</th>
-                      {/* <th className="border-0">Giới tính</th> */}
+                      {/* <th className="border-0"><ReactDatePicker selected={startDate} onChange={(date) => setStartDate(date)} />Ngày sinh</th> */}
+                      <th className="border-0">Giới tính</th>
                       <th className="border-0">Khoa</th>
                       <th className="border-0">Xử lý</th>
                     </tr>
@@ -115,6 +119,7 @@ function ManagerTeacher() {
                           <td>{teacher.phone}</td>
                           <td>{teacher.address}</td>
                           <td>{teacher.dateOfBirth}</td>
+                          <td>{teacher.gender === 1 ? 'Nam' : 'Nữ'}</td>
                           <td>{teacher.branchName}</td>
                           <td>
                               <button type="button" className="btn btn-fill btn-success btn-sm"><i className="bi bi-search"></i></button>
